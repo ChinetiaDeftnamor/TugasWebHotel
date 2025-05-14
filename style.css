@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  background: url("wp3.jpg") no-repeat center center/cover;
+  color: #000000;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-bg {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.button-choice {
+  display: inline-block;
+  width: 200px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: #fff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  margin: 8px 0;
+}
+
+.button-choice:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button-choice.secondary {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: #fff;
+}
+
+.button-choice.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  background-color: #474747;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #222;
+  color: #fff;
+}
+
+.feature-item {
+  text-align: center;
+  flex: 1;
+  margin: 0 15px;
+}
+
+.feature-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.feature-item p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Service Section */
+.services {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service-item {
+  display: inline-block;
+  width: 30%;
+  margin: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+}
+
+.service-item h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.service-item p {
+  font-size: 14px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
